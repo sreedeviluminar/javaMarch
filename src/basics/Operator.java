@@ -46,10 +46,9 @@ public class Operator {
 //shift
         int z = 10;// 0000 1010
         System.out.println("z >>  1 => "+(z >> 1)); //0000 1010  >> 1   0000 0101 =5
-        System.out.println("z <<  2 => "+(z << 2));//0000 1010  << 2   0010 1000
+        System.out.println("z <<  2 => "+(z << 2)); //0000 1010  << 2   0010 1000
 
         System.out.println("----------------------------");
-
 //bitwise
         int a1 =  11 ; //1011
         int a2 =  15 ; //1111
@@ -62,11 +61,7 @@ public class Operator {
         System.out.println("----------------------------");
 
 //ternary  -> condition ? true statement :  false statement ;
-
         boolean out = (a1 > a2) ? true : false;
         System.out.println("result = "+out);
-
-
-
     }
 }
