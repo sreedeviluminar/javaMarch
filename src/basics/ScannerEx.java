@@ -22,6 +22,6 @@ public class ScannerEx {
         System.out.println("Age       = "+age);
         System.out.println("Gender    = "+gender);
         System.out.println("Phone     = "+phone);
-        
+
     }
 }
