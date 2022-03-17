@@ -1,7 +1,6 @@
 package oops;
 
 class Parent1{
-
     void sum(){
         int sum =10+3+7;
         System.out.println("sum 1= "+sum);
@@ -10,7 +9,6 @@ class Parent1{
         int sum =a+2;
         System.out.println("sum 3 = "+sum);
     }
-
     void display(){
         System.out.println("inside display function");
     }
