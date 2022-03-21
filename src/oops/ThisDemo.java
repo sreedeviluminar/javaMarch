@@ -5,12 +5,12 @@ public class ThisDemo {
    int age;
    String job;
 
-   ThisDemo(String n, int a){
-       name = n;
+   ThisDemo(String name, int a){
+       this.name = name;
        age = a;
    }
-   void display(String job) {
-       this.job= job;
+   void display(String j) {
+       this.job= j;
    }
     void show(){
         System.out.println("from show function= my name is "+name+" and I am "+age +"years old, I am a "+job );
