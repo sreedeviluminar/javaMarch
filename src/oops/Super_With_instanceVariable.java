@@ -5,9 +5,9 @@ class Parent5{
     String color="Green";
 }
 class Child5 extends  Parent5{
-    String color = "Blue";
+    String color1 = "Blue";
     void show(){
-        System.out.println("my favourite color is "+color);
+        System.out.println("my favourite color is "+color1);
         System.out.println("my seconf fvrt color is "+super.color);
     }
 }
