@@ -1,7 +1,4 @@
 package oops;
-
-import com.sun.tools.javac.Main;
-
 interface  Father8{
     String parent1 = "Father";
     void fatherdeatils(String name,int age,String job);
@@ -32,7 +29,6 @@ public class Child8 implements Father8,Mother8  {
         System.out.println("Mother's Age  = "+age);
         System.out.println("Mother's Job  = "+job);
     }
-
     public static void main(String[] args) {
         Child8 obj = new Child8();
         obj.childdetails("Appu",5,10);
