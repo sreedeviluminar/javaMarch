@@ -1,5 +1,6 @@
 package basics;
 
+
 import java.util.Scanner;
 
 public class ScannerEx {
@@ -7,7 +8,7 @@ public class ScannerEx {
     public static void main(String[] args) {
         //nextXYZ();
 
-        Scanner  obj = new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);
         System.out.println("enter your name");
         String name = obj.next();
         System.out.println("enter your age");
