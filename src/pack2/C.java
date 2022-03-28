@@ -1,14 +1,16 @@
 package pack2;
 
-import pack1.A;
-
-public class C {
+public class C  implements  Runnable{
 
     public static void main(String[] args) {
 
-        A obj = new A();
-        System.out.println("I am doing a course in "+obj.course);
-
+        C obj = new C();
+        Thread obj1 = new Thread(obj);
+        obj1.start();
+    }
+    @Override
+    public void run() {
+        System.out.println("Current Thread is "+Thread.currentThread().getName());
 
     }
 }
