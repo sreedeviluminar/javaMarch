@@ -28,6 +28,7 @@ class Child3 extends  Parent3{
 public class Super_with_fun {
 
     public static void main(String[] args) {
+
         Child3 obj = new Child3();
         obj.method1();
         obj.show();
